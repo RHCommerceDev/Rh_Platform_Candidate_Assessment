@@ -3,7 +3,7 @@ Please Select from one of the following options:
 1. Create a simple Hello World application (any language you prefer) and deploy it using a localized version of Kubernetes (minikube, k3s, etc).
 - Ensure the application is containerized
 - Configure the application to be deployed in QA and Production
-- Include some form of CI/CD
+- Include some form of CI/CD (Think about the concept of CI/CD, not tooling, i.e. not necessart to use a vendor like jenkins or github actions, a simple bash script would work. Feel free to get creative with this)
   
 2. Create a terraform module for an Amazon API Gateway which forwards requests to an SNS/SQS fanout distribution
 - The Gateway should have some form of security built in (IP whitelist, mTLS, Lambda Auth)
